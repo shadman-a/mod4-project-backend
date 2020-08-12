@@ -1,0 +1,2 @@
+class JellyfishesController < ApplicationController
+end

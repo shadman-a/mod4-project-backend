@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  resources :jellyfishes
+  resources :catches
+  resources :jellyfish_nets
   resources :characters
   resources :game_plays
   resources :users
