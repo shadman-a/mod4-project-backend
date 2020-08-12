@@ -6,15 +6,15 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-5.times do 
-    User.create(name: "Bob", image:"", password:"", username:"" )
-end
+# 5.times do 
+#     User.create(name: "Bob", image:"", password:"", username:"" )
+# end
 
-5.times do 
-    Character.create(name: "Pat", image:"", sound:"" )
-end
+# 5.times do 
+#     Character.create(name: "Pat", image:"", sound:"" )
+# end
 
-5.times do 
-    GamePlay.create(character_id: Character.all.sample.id, user_id:User.all.sample.id, score: 0 )
-end
-
+# 5.times do 
+#     GamePlay.create(character_id: Character.all.sample.id, user_id:User.all.sample.id, score: 0 )
+# end
+Character.create(name: "Spongebob", image: "https://www.pngarts.com/files/3/Spongebob-Squarepants-PNG-Pic.png", sound: "")
