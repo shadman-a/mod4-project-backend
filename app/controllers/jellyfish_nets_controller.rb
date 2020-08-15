@@ -1,0 +1,2 @@
+class JellyfishNetsController < ApplicationController
+end

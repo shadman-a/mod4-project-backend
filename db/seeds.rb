@@ -1,0 +1,1 @@
+Character.create(name: "Spongebob", image: "https://www.pngarts.com/files/3/Spongebob-Squarepants-PNG-Pic.png", sound: "")
