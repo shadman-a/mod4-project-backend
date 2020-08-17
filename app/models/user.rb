@@ -1,6 +1,9 @@
 class User < ApplicationRecord
 has_secure_password
 
+has_many :game_plays
+has_many :characters, through: :game_plays
+
 validates :username, presence: true
 validates :username, uniqueness: true
 validates :username, length: { minimum: 4 }
