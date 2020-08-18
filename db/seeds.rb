@@ -1,1 +1,5 @@
 Character.create(name: "Spongebob", image: "https://www.pngarts.com/files/3/Spongebob-Squarepants-PNG-Pic.png", sound: "")
+Character.create(name: "Patrick", image: "https://upload.wikimedia.org/wikipedia/en/thumb/3/33/Patrick_Star.svg/1200px-Patrick_Star.svg.png", sound: "")
+Character.create(name: "Squidward", image: "https://i.ibb.co/7NPtR2p/squidward-squidward-grumpy-11563266677zmtvziydvh.png", sound: "")
+Character.create(name: "Plankton", image: "https://i.ibb.co/FJDkDSR/Plankton.png", sound: "")
+Character.create(name: "Mr. Krabs", image: "https://i.ibb.co/HqbYsdk/124-1243110-useful-from-spongebob-bikini-spongebob-mr-krabs-hd.png", sound: "")
